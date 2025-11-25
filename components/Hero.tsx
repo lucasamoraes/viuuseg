@@ -53,7 +53,7 @@ const Hero: React.FC = () => {
           para sua Frota e Segurança
         </h1>
         <p className="mt-6 max-w-3xl mx-auto text-lg sm:text-xl text-slate-100 drop-shadow-md">
-          Proteja seu patrimônio com a mais avançada tecnologia de monitoramento. Câmeras Full HD, acesso em tempo real e gravação em nuvem.
+          Proteja seu patrimônio com a mais avançada tecnologia de monitoramento. Câmeras Full HD, acesso em tempo real e gravação de vídeo e áudio.
         </p>
         <div className="mt-10 hidden md:flex md:flex-row justify-center items-center gap-4">
           <a
@@ -89,9 +89,9 @@ const Hero: React.FC = () => {
                     </div>
                     <div className="flex items-center justify-center space-x-3">
                         <div className="bg-white/10 p-2 rounded-full backdrop-blur-sm">
-                            <CloudIcon className="h-7 w-7 text-white" />
+                            <VideoCameraIcon className="h-7 w-7 text-white" />
                         </div>
-                        <span className="font-semibold text-white drop-shadow-md">Backup em Nuvem</span>
+                        <span className="font-semibold text-white drop-shadow-md">Gravaçao de Vídeo e Áudio</span>
                     </div>
                 </div>
             </div>

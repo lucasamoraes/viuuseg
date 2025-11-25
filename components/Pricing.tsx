@@ -70,7 +70,7 @@ const Pricing: React.FC = () => {
                 <div className="text-center mb-16">
                     <h2 className="text-4xl font-extrabold text-viuu-blue-900">Kits e Planos</h2>
                     <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-600">
-                        Adquira o equipamento ideal para sua necessidade e conte com nosso serviço de monitoramento completo.
+                        Adquira seu kit ideal para sua necessidade e conte com nosso serviço de monitoramento completo.
                     </p>
                 </div>
 
@@ -91,13 +91,13 @@ const Pricing: React.FC = () => {
                                 </div>
                             )}
                             
-                            <span className="text-sm font-semibold text-slate-500 uppercase tracking-wider mb-2">Equipamento</span>
+                            <span className="text-sm font-semibold text-slate-500 uppercase tracking-wider mb-2">Combo</span>
                             <h3 className="text-2xl font-bold text-slate-900 mb-4">{kit.name}</h3>
                             
                             <div className="mb-2">
                                 <span className="text-4xl font-extrabold text-slate-900">R$ {kit.price}</span>
                             </div>
-                            <p className="text-sm text-slate-500 mb-8">Pagamento único do equipamento</p>
+                            <p className="text-sm text-slate-500 mb-8">Adesão e Instalação</p>
 
                             <ul className="space-y-4 flex-grow">
                                 {kit.features.map((feature, idx) => (

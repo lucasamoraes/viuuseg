@@ -32,6 +32,10 @@ const Faq: React.FC = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const faqs = [
+     {
+      question: 'Como funciona a instalação?',
+      answer: 'A Instalação é simples e descomplicada, Sem alteração das características do veículo, Nosso sistema de vigilância veicular é instalado de forma rápida, discreta e sem qualquer modificação estrutural no veículo. Utilizamos equipamentos compactos e de fácil adaptação, preservando a estética e a originalidade do automóvel, caminhão ou utilitário.',
+    },
     {
       question: 'Preciso de um contrato de fidelidade?',
       answer: 'Não. Nosso serviço é sem fidelidade. O cliente pode cancelar a qualquer momento, sem multas ou burocracia, garantindo total flexibilidade.',
@@ -52,6 +56,11 @@ const Faq: React.FC = () => {
       question: 'Como é feito o pagamento?',
       answer: 'O pagamento é recorrente e pode ser feito de forma prática via boleto ou PIX, facilitando o controle e a gestão financeira para você.',
     },
+     {
+      question: 'O que acontece se cancelar o plano?',
+      answer: 'O cancelamento é simples e sem custo, caso o cliente opte por cancelar o plano, basta entrar em contato com a equipe da Viuu para agendar a retirada dos equipamentos instalados no veículo. Esse processo é realizado sem qualquer custo adicional, de forma rápida e organizada.',
+    },
+    
   ];
 
   const handleToggle = (index: number) => {

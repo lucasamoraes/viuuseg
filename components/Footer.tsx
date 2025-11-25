@@ -31,17 +31,18 @@ const Footer: React.FC = () => {
             </div>
 
             {/* Coluna 2: Links Rápidos */}
-            <div>
+             <div>
                 <h3 className="text-lg font-bold text-white mb-6">Links Rápidos</h3>
                 <ul className="space-y-4">
+                    {/* --- INÍCIO DAS ALTERAÇÕES: Ajuste dos HREFs para âncoras locais --- */}
                     <li>
                         <a href="#" className="text-blue-200 hover:text-white transition-colors duration-200">Início</a>
                     </li>
                     <li>
-                        <a href="#recursos" className="text-blue-200 hover:text-white transition-colors duration-200">Recursos</a>
+                        <a href="#features" className="text-blue-200 hover:text-white transition-colors duration-200">Funcionalidades</a>
                     </li>
                      <li>
-                        <a href="#features" className="text-blue-200 hover:text-white transition-colors duration-200">Benefícios</a>
+                        <a href="#recursos-detalhados" className="text-blue-200 hover:text-white transition-colors duration-200">Benefícios</a>
                     </li>
                     <li>
                         <a href="#pricing" className="text-blue-200 hover:text-white transition-colors duration-200">Planos e Preços</a>
@@ -49,6 +50,7 @@ const Footer: React.FC = () => {
                     <li>
                         <a href="#faq" className="text-blue-200 hover:text-white transition-colors duration-200">Dúvidas Frequentes</a>
                     </li>
+                    {/* --- FIM DAS ALTERAÇÕES --- */}
                 </ul>
             </div>
 
