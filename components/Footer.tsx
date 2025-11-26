@@ -76,9 +76,14 @@ const Footer: React.FC = () => {
 
         {/* Rodapé Inferior */}
         <div className="border-t border-viuu-blue-800 pt-8 flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
-          <p className="text-sm text-blue-300 text-center md:text-left">
-            &copy; {new Date().getFullYear()} Viuu Vigilância Veicular. Todos os direitos reservados.
-          </p>
+          <div className="text-center md:text-left">
+            <p className="text-sm text-blue-300">
+                &copy; {new Date().getFullYear()} Viuu Vigilância Veicular. Todos os direitos reservados.
+            </p>
+            <p className="text-xs text-blue-400 mt-1">
+                Desenvolvido por: <a href="https://amplificati.vercel.app/" target="_blank" rel="noopener noreferrer" className="font-semibold hover:text-white transition-colors">Amplificati</a>
+            </p>
+          </div>
           <div className="flex items-center space-x-4">
               <span className="text-xs text-blue-300">Parceira:</span>
               <MikeLogo />
