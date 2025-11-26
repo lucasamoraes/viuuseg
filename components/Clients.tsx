@@ -1,24 +1,16 @@
 import React from 'react';
 
 // texto como espaços reservados para logotipos.
-const Logo1 = () => <svg viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg" className="w-full h-full" preserveAspectRatio="xMidYMid meet" fill="currentColor"><text x="50%" y="50%" dominantBaseline="middle" textAnchor="middle" fontFamily="Arial, sans-serif" fontSize="20" fontWeight="bold">NEXUS</text></svg>;
-const Logo2 = () => <svg viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg" className="w-full h-full" preserveAspectRatio="xMidYMid meet" fill="currentColor"><text x="50%" y="50%" dominantBaseline="middle" textAnchor="middle" fontFamily="Verdana, sans-serif" fontSize="20" fontStyle="italic">Aura Inc.</text></svg>;
-const Logo3 = () => <svg viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg" className="w-full h-full" preserveAspectRatio="xMidYMid meet" fill="currentColor"><text x="50%" y="50%" dominantBaseline="middle" textAnchor="middle" fontFamily="Georgia, serif" fontSize="18">Circle Co</text></svg>;
-const Logo4 = () => <svg viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg" className="w-full h-full" preserveAspectRatio="xMidYMid meet" fill="currentColor"><text x="50%" y="50%" dominantBaseline="middle" textAnchor="middle" fontFamily="Courier New, monospace" fontSize="20">Square</text></svg>;
-const Logo5 = () => <svg viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg" className="w-full h-full" preserveAspectRatio="xMidYMid meet" fill="currentColor"><text x="50%" y="50%" dominantBaseline="middle" textAnchor="middle" fontFamily="Impact, sans-serif" fontSize="24" letterSpacing="2">ZENITH</text></svg>;
-const Logo6 = () => <svg viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg" className="w-full h-full" preserveAspectRatio="xMidYMid meet" fill="currentColor"><text x="50%" y="50%" dominantBaseline="middle" textAnchor="middle" fontFamily="Tahoma, sans-serif" fontSize="18">Apex</text></svg>;
-const Logo7 = () => <svg viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg" className="w-full h-full" preserveAspectRatio="xMidYMid meet" fill="currentColor"><text x="50%" y="50%" dominantBaseline="middle" textAnchor="middle" fontFamily="Arial, sans-serif" fontSize="20" fontWeight="bold">Quantum</text></svg>;
-const Logo8 = () => <svg viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg" className="w-full h-full" preserveAspectRatio="xMidYMid meet" fill="currentColor"><text x="50%" y="50%" dominantBaseline="middle" textAnchor="middle" fontFamily="Verdana, sans-serif" fontSize="20" fontStyle="italic">Evolve</text></svg>;
+const Logo1 = () => <svg viewBox="0 0 200 45" xmlns="http://www.w3.org/2000/svg" className="w-full h-full" preserveAspectRatio="xMidYMid meet" fill="currentColor"><text x="50%" y="50%" dominantBaseline="middle" textAnchor="middle" fontFamily="Arial, sans-serif" fontSize="20" fontWeight="bold">Fernando Turismo</text></svg>;
+const Logo2 = () => <svg viewBox="0 0 200 45" xmlns="http://www.w3.org/2000/svg" className="w-full h-full" preserveAspectRatio="xMidYMid meet" fill="currentColor"><text x="50%" y="50%" dominantBaseline="middle" textAnchor="middle" fontFamily="Verdana, sans-serif" fontSize="20" fontStyle="italic">Contrular</text></svg>;
+const Logo3 = () => <svg viewBox="0 0 200 45" xmlns="http://www.w3.org/2000/svg" className="w-full h-full" preserveAspectRatio="xMidYMid meet" fill="currentColor"><text x="50%" y="50%" dominantBaseline="middle" textAnchor="middle" fontFamily="Georgia, serif" fontSize="18">Mike Monitoramento</text></svg>;
+
 
 const logos = [
     { id: 1, component: <Logo1 /> },
     { id: 2, component: <Logo2 /> },
     { id: 3, component: <Logo3 /> },
-    { id: 4, component: <Logo4 /> },
-    { id: 5, component: <Logo5 /> },
-    { id: 6, component: <Logo6 /> },
-    { id: 7, component: <Logo7 /> },
-    { id: 8, component: <Logo8 /> },
+ 
 ];
 
 const Clients: React.FC = () => {

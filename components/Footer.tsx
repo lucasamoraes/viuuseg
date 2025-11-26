@@ -62,7 +62,7 @@ const Footer: React.FC = () => {
                  </p>
                  <div className="flex flex-col space-y-4">
                      <a 
-                        href="https://wa.me/5500000000000?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Viuu%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." 
+                        href="https://wa.me/5532991310073?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Viuu%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." 
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center justify-center w-full px-4 py-3 bg-[#25D366] hover:bg-[#128C7E] text-white font-bold rounded-lg transition-colors shadow-lg"

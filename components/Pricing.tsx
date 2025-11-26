@@ -138,7 +138,7 @@ const Pricing: React.FC = () => {
                                 </div>
                                 <p className="text-xs text-blue-300 mb-8">* Sem fidelidade. Cancele a qualquer momento.</p>
 
-                                <a href="https://wa.me/5500000000000?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20as%20solu%C3%A7%C3%B5es%20da%20Viuu." className="w-full block text-center bg-white text-viuu-blue-900 font-bold text-lg py-4 rounded-xl hover:bg-blue-50 transition-colors shadow-lg" target="_blank">
+                                <a href="https://wa.me/5532991310073?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20as%20solu%C3%A7%C3%B5es%20da%20Viuu." className="w-full block text-center bg-white text-viuu-blue-900 font-bold text-lg py-4 rounded-xl hover:bg-blue-50 transition-colors shadow-lg" target="_blank">
                                     Contratar Agora
                                 </a>
                             </div>

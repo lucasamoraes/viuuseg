@@ -2,7 +2,7 @@ import React from 'react';
 
 const WhatsAppButton: React.FC = () => {
   // Substitua pelo número real do seu negócio (ex: 5511999999999)
-  const phoneNumber = "5511999999999"; 
+  const phoneNumber = "5532991310073"; 
   const message = "Olá! Gostaria de mais informações sobre os serviços da Viuu.";
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 

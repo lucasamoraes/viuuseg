@@ -14,7 +14,7 @@ const Cta: React.FC = () => {
           </p>
           <div className="mt-10">
             <a
-              href="https://wa.me/5500000000000?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20as%20solu%C3%A7%C3%B5es%20da%20Viuu."
+              href="https://wa.me/5532991310073?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20as%20solu%C3%A7%C3%B5es%20da%20Viuu."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-4 bg-white text-viuu-blue-900 text-lg font-bold rounded-xl shadow-lg hover:bg-slate-100 focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-75 transition-transform transform hover:scale-105"
