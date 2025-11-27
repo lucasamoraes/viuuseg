@@ -1,9 +1,9 @@
 import React from 'react';
 
 // texto como espaços reservados para logotipos.
-const Logo1 = () => <svg viewBox="0 0 200 45" xmlns="http://www.w3.org/2000/svg" className="w-full h-full" preserveAspectRatio="xMidYMid meet" fill="currentColor"><text x="50%" y="50%" dominantBaseline="middle" textAnchor="middle" fontFamily="Arial, sans-serif" fontSize="20" fontWeight="bold">Fernando Turismo</text></svg>;
-const Logo2 = () => <svg viewBox="0 0 200 45" xmlns="http://www.w3.org/2000/svg" className="w-full h-full" preserveAspectRatio="xMidYMid meet" fill="currentColor"><text x="50%" y="50%" dominantBaseline="middle" textAnchor="middle" fontFamily="Verdana, sans-serif" fontSize="20" fontStyle="italic">Contrular</text></svg>;
-const Logo3 = () => <svg viewBox="0 0 200 45" xmlns="http://www.w3.org/2000/svg" className="w-full h-full" preserveAspectRatio="xMidYMid meet" fill="currentColor"><text x="50%" y="50%" dominantBaseline="middle" textAnchor="middle" fontFamily="Georgia, serif" fontSize="18">Mike Monitoramento</text></svg>;
+const Logo1 = () => <svg viewBox="0 0 180 45" xmlns="http://www.w3.org/2000/svg" className="w-full h-full" preserveAspectRatio="xMidYMid meet" fill="currentColor"><text x="50%" y="50%" dominantBaseline="middle" textAnchor="middle" fontFamily="Arial, sans-serif" fontSize="20" fontWeight="bold">Fernando Turismo</text></svg>;
+const Logo2 = () => <svg viewBox="0 0 180 45" xmlns="http://www.w3.org/2000/svg" className="w-full h-full" preserveAspectRatio="xMidYMid meet" fill="currentColor"><text x="50%" y="50%" dominantBaseline="middle" textAnchor="middle" fontFamily="Verdana, sans-serif" fontSize="20" fontStyle="italic">Constrular</text></svg>;
+const Logo3 = () => <svg viewBox="0 0 180 45" xmlns="http://www.w3.org/2000/svg" className="w-full h-full" preserveAspectRatio="xMidYMid meet" fill="currentColor"><text x="50%" y="50%" dominantBaseline="middle" textAnchor="middle" fontFamily="Georgia, serif" fontSize="18">Mike Monitoramento</text></svg>;
 
 
 const logos = [

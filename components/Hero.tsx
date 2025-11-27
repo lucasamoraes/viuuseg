@@ -63,7 +63,7 @@ const Hero: React.FC = () => {
             Fale Conosco
           </a>
           <a
-            href="#recursos"
+            href="#recursos-detalhados"
             className="w-full sm:w-auto px-8 py-4 bg-white/20 backdrop-blur-sm border border-white/30 text-white text-lg font-bold rounded-xl hover:bg-white/30 focus:outline-none focus:ring-2 focus:ring-white/50 transition-colors"
           >
             Recursos
